@@ -1,0 +1,94 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.sinumerik-to-nc {
+}
+
+.stnc_main_panel {
+  background-color: @tab-bar-background-color;
+  border: 2px solid @base-border-color;
+  min-width: 350px;
+  max-width: 1000px;
+  height: 100%;
+}
+.stnc_panel_resize {
+  cursor: ew-resize;
+  height: 100%;
+  width: 4px;
+  float: left;
+}
+.stnc_panel_container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+.stnc_panel {
+}
+.stnc_header {
+  height: 2.5em;
+  font-weight: bold;
+}
+.stnc_body {
+  font-size: @input-font-size;
+  flex-grow: 3;
+  background-color: @base-background-color;
+  overflow: scroll;
+}
+.stnc_footer {
+  height: 2rem;
+}
+
+.stnc_li {
+  font-size: 16px;
+  color: @base-background-color;
+}
+
+.stnc_li_open {
+  border: 2px solid @text-color;
+}
+
+.stnc_li__error {
+  color: @background-color-error;
+}
+
+.stnc_li_details {
+  background-color: @base-background-color;
+}
+
+.stnc_details_open {
+  color: @text-color;
+  border-top: 2px solid @text-color;
+}
+//.stnc_li:nth-of-type(4n - 1),
+//.stnc_li:nth-of-type(4n) {
+//  background-color: @tab-background-color;
+//}
+
+.stnc_li_text_with_details {
+  background-color: inherit;
+  color: @text-color;
+  cursor: pointer;
+}
+
+.stnc_li_text_with_details:hover {
+  background-color: @tab-background-color;
+}
+
+.stnc_operator-block__origin-operator {
+  float: left;
+  padding-right: 10px;
+  //background-color: @tab-background-color;
+}
+
+.stnc_ul {
+  //list-style-type: none;
+}
+
+summary::-webkit-details-marker {
+  display: none
+}
