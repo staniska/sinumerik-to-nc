@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "sinumerik-to-nc:toggle"
   },
-  "repository": "https://github.com/atom/sinumerik-to-nc",
+  "repository": "https://github.com/staniska/sinumerik-to-nc",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
