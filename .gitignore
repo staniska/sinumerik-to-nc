@@ -5,3 +5,4 @@ node_modules
 .idea
 /lib/TODO
 /package-lock.json
+/userData
