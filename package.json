@@ -1,7 +1,7 @@
 {
   "name": "sinumerik-to-nc",
   "main": "./lib/sinumerik-to-nc",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "Translate Sinumerik code to other CNC",
   "keywords": [],
   "activationCommands": {
